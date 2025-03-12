@@ -137,7 +137,3 @@ for ciudad in temperaturas:
             suma_temperaturas += dia['temp']
         promedio = suma_temperaturas / len(semana)
         print(f"  Promedio Semana {i + 1}: {promedio:.2f}°C")
-
-
-
-
